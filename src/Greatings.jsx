@@ -11,3 +11,11 @@ export function Greatings(props) {
     </ul>
   );
 }
+
+function ItsSunny() {
+  return <h1>Il fait beau</h1>;
+}
+
+function ItsRainy() {
+  return <h1>Il pleut</h1>;
+}
