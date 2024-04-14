@@ -1,6 +1,7 @@
 import React from "react";
 
-export function Greatings() {
+export function Greatings(props) {
+  console.log("***", props);
   return (
     <ul>
       <li>Hello</li>
