@@ -4,7 +4,7 @@ export function Greatings(props) {
   console.log("***", props);
   return (
     <ul>
-      <li>Hello</li>
+      <li>Hello {props.firstName}</li>
       <li>my</li>
       <li>friend</li>
     </ul>
