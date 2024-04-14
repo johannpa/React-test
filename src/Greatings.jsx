@@ -13,9 +13,9 @@ export function Greatings(props) {
 }
 
 function ItsSunny() {
-  return <h1>Il fait beau</h1>;
+  return <h2>Il fait beau</h2>;
 }
 
 function ItsRainy() {
-  return <h1>Il pleut</h1>;
+  return <h2>Il pleut</h2>;
 }
