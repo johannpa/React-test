@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom";
 
-const dirRoot = document.getElementById("root");
+const divRoot = document.getElementById("root");
 
-const reactRoot = ReactDOM.createRoot(dirRoot);
+const reactRoot = ReactDOM.createRoot(divRoot);
 
 reactRoot.render();
