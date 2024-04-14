@@ -5,8 +5,8 @@ export function Greatings(props) {
   return (
     <ul>
       <li>Hello {props.firstName}</li>
-      <li>my</li>
-      <li>friend</li>
+      <li>you are {props.age} years old </li>
+      <li>{props.image}</li>
     </ul>
   );
 }
