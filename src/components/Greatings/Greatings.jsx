@@ -1,6 +1,6 @@
 import React from "react";
-import "./style.css";
+import style from "./style.module.css";
 
 export function Greatings() {
-  return <p className="box">Salutation !</p>;
+  return <p className={style.box}>Salutation !</p>;
 }
