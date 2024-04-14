@@ -4,8 +4,7 @@ import { Greatings } from "./Greatings";
 export function App() {
   return (
     <>
-      <input type="text" />
-      <button>Click</button>
+      <h1>Hello to the React world</h1>
       <Greatings />
     </>
   );
