@@ -9,6 +9,8 @@ export function App() {
         firstName={"Rachel"}
         age={30}
         car={{ color: "red", vitesse: 300 }}
+        doSomething={() => console.log("Hello")}
+        image={<img src="https://via.placeholder.com/150" alt="placeholder" />}
       />
     </>
   );
