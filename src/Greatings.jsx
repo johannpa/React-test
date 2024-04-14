@@ -6,7 +6,7 @@ export function Greatings(props) {
     <ul>
       <li>Hello {props.firstName}</li>
       <li>you are {props.age} years old </li>
-      <li>{props.image}</li>
+      <li>{props.children}</li>
     </ul>
   );
 }
