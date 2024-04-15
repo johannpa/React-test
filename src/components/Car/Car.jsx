@@ -7,7 +7,7 @@ export function Car(props) {
   return (
     <div>
       Je suis {"<Car/>"}
-      <button onClick={onClick}>click</button>
+      <button onClick={() => props.onCarClick(2)}>click</button>
     </div>
   );
 }
