@@ -6,11 +6,15 @@ import "./global.css";
 // import { Greatings } from "./Greatings";
 
 export function App() {
+  function hello() {
+    alert("Hello de <App/>");
+  }
   return (
     <>
       <div>
+        Je suis {"<App/>"}
+        <button onClick={hello}>click</button>
         <Car />
-        <Greatings />
       </div>
     </>
   );
