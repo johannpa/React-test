@@ -13,8 +13,7 @@ export function App() {
     <>
       <div>
         Je suis {"<App/>"}
-        <button onClick={hello}>click</button>
-        <Car />
+        <Car onCarClick={hello} />
       </div>
     </>
   );
