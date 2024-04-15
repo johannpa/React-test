@@ -6,8 +6,8 @@ import "./global.css";
 // import { Greatings } from "./Greatings";
 
 export function App() {
-  function hello() {
-    alert("Hello de <App/>");
+  function hello(number) {
+    alert("Hello de <App/>" + number);
   }
   return (
     <>
