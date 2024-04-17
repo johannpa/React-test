@@ -5,7 +5,7 @@ export function App() {
   return (
     <>
       <div>
-        <DisplayDifficulty />
+        <DisplayDifficulty difficulty="Low" />
       </div>
     </>
   );
