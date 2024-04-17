@@ -4,7 +4,9 @@ import style from "./style.module.css";
 export function DisplayDifficulty(props) {
   return (
     <div className={style.container}>
-      Difficulty set to : {props.difficulty}
+      {props.difficulty
+        ? `Difficulty set to : ${props.difficulty}`
+        : "No difficulty set"}
     </div>
   );
 }
