@@ -1,9 +1,12 @@
 import React from "react";
+import { DisplayDifficulty } from "./components/DisplayDifficulty/DisplayDifficulty";
 
 export function App() {
   return (
     <>
-      <div></div>
+      <div>
+        <DisplayDifficulty />
+      </div>
     </>
   );
 }
