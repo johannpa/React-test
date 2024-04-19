@@ -6,6 +6,7 @@ export function MenuListItem(props) {
   console.log("***", isHovered);
   return (
     <div
+      style={{ backgroundColor: isHovered ? "#a5e9ff" : "#eff0ef" }}
       className={style.container}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
