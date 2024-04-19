@@ -4,9 +4,7 @@ import { DisplayDifficulty } from "./components/DisplayDifficulty/DisplayDifficu
 export function App() {
   return (
     <>
-      <div>
-        <DisplayDifficulty difficulty="Low" />
-      </div>
+      <div>{/* <DisplayDifficulty difficulty="Low" /> */}</div>
     </>
   );
 }
