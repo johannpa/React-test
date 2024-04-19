@@ -4,7 +4,7 @@ import { MenuListItem } from "../MenuListItem/MenuListItem";
 
 export function MenuList(props) {
   return (
-    <div>
+    <div className={style.container}>
       <MenuListItem difficulty="Low" />
       <MenuListItem difficulty="Medium" />
       <MenuListItem difficulty="High" />
