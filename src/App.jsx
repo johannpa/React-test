@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { DisplayDifficulty } from "./components/DisplayDifficulty/DisplayDifficulty";
 // import { MenuListItem } from "./components/MenuListItem/MenuListItem";
 import { MenuList } from "./components/MenuList/MenuList";
 
 export function App() {
+  const [currentDifficulty, setCurrentDifficulty] = useState("");
+
+  function updateDifficulty(difficulty) {
+    setCurrentDifficulty(difficulty);
+  }
   return (
     <>
       <div>
-        {/* <DisplayDifficulty difficulty="Low" /> */}
-        <MenuList />
+        <MenuList
+          onItemClick={updateDifficulty}
+          difficulty={currentDifficulty}
+        />
+        <DisplayDifficulty difficulty={currentDifficulty} />
       </div>
     </>
   );
