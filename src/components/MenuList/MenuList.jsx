@@ -6,26 +6,13 @@ import { DIFFICULTIES } from "./constant";
 export function MenuList({ difficulty, onItemClick }) {
   return (
     <div className={style.container}>
-      <MenuListItem
-        onClick={onItemClick}
-        difficulty="Low"
-        isSelected={difficulty === "Low"}
-      />
-      <MenuListItem
-        onClick={onItemClick}
-        difficulty="Medium"
-        isSelected={difficulty === "Medium"}
-      />
-      <MenuListItem
-        onClick={onItemClick}
-        difficulty="High"
-        isSelected={difficulty === "High"}
-      />
-      <MenuListItem
-        onClick={onItemClick}
-        difficulty="Insane"
-        isSelected={difficulty === "Insane"}
-      />
+      {DIFFICULTIES.map((diff) => (
+        <MenuListItem
+          onClick={onItemClick}
+          difficulty={diff}
+          isSelected={difficulty === diff}
+        />
+      ))}
     </div>
   );
 }
