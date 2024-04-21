@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./style.module.css";
 import { MenuListItem } from "../MenuListItem/MenuListItem";
+import { DIFFICULTIES } from "./constant";
 
 export function MenuList({ difficulty, onItemClick }) {
   return (
